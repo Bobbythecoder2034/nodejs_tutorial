@@ -9,6 +9,19 @@ function convertTime(seconds){
     const hours = Math.floor(seconds / 3600)
     const minutes = Math.floor((seconds % 3600)/60)
     const secs = Math.floor(seconds % 60)
-    return `${hours}:${minutes}:${secs}`
+    return `Hours: ${hours} Minutes: ${minutes} Seconds: ${secs}`
 }
 console.log(convertTime(os.uptime()))
+
+//Convert to hours mins and seconds
+
+const currentOS = {
+    name: os.type(),
+    release: os.release(),
+    totalMemory: os.totalmem(),
+    freeMemory: os.freemem(),
+    device:os.platform(), //OS: win-32, linux, macosx...etc
+    arch:os.arch(), //Architecture x64, x86, arm4 ...etc
+
+}
+console.log(currentOS)
