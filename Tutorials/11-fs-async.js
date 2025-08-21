@@ -12,6 +12,7 @@ readFile('./content/big.txt','utf8', (err, firstData)=>{
         writeFile('./content/result-mind-grenade.txr',result,(err)=>{
             if(err){console.log(err);return}
             console.log('Asynchronous write completed')
+            
         })
     })
     // writeFile('./content/result-mind-grenade.txt', result) one to one reading and writing
