@@ -1,0 +1,20 @@
+{
+  "name": "tutorials",
+  "version": "1.0.0",
+  "description": "A tutorial in learning NodeJS",
+  "keywords": [
+    "tutorial",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "author": "Kaden Smiley",
+  "type": "node",
+  "main": "01-intro.js",
+  "scripts": {
+    "dev": "nodemon 12-http.js",
+    "start": "node 01-event-loop-example/03-setInterval.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
