@@ -13,7 +13,7 @@
   "scripts": {
     "dev": "nodemon 12-http.js",
     "install": "npm i scss",
-    "start": "node 01-event-loop-example/03-setInterval.js"
+    "start": "node 01-event-loop-example/02-setTimeout.js"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
