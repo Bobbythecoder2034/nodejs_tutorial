@@ -1,4 +1,5 @@
-const amount = 9
+amount = 9
+module.exports.amounts = amount
 
 if(amount < 10){
     console.log('small number')
